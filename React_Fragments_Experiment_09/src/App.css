@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f3ef;
+  color: #252525;
+}
+
+nav {
+  min-height: 75px;
+  background: #242321;
+  color: white;
+  padding: 0 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h2 {
+  font-size: 24px;
+  letter-spacing: -1px;
+}
+
+nav h2 span {
+  color: #c49a6c;
+}
+
+nav p {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #c7c2ba;
+}
+
+main {
+  max-width: 950px;
+  margin: 85px auto;
+  padding: 0 25px;
+}
+
+.eyebrow {
+  color: #a47b50;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 14px;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: 42px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.subtitle {
+  color: #77736e;
+  margin-top: 12px;
+  margin-bottom: 38px;
+}
+
+.profile {
+  background: white;
+  padding: 35px;
+  border: 1px solid #e8e2da;
+  border-radius: 12px;
+  box-shadow: 0 12px 35px #2920160d;
+}
+
+.student-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eeeae4;
+}
+
+.avatar {
+  width: 65px;
+  height: 65px;
+  background: #eee5d9;
+  color: #8b6540;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.student-card h2 {
+  font-family: Georgia, serif;
+  font-size: 23px;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+.student-card p {
+  color: #858078;
+  font-size: 14px;
+}
+
+.status {
+  margin-left: auto;
+  background: #e9f2e9;
+  color: #426b45;
+  padding: 7px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.details span {
+  color: #89847d;
+  font-size: 12px;
+}
+
+.details h3 {
+  margin-top: 10px;
+  font-size: 17px;
+  color: #111111;
+}
+
+footer {
+  text-align: center;
+  margin-top: 35px;
+  color: #99928a;
+  font-size: 12px;
+}
+
+@media (max-width: 600px) {
+  nav {
+    padding: 0 20px;
+  }
+
+  nav p {
+    font-size: 8px;
+  }
+
+  main {
+    margin: 50px auto;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .profile {
+    padding: 22px;
+  }
+
+  .details {
+    grid-template-columns: 1fr;
+  }
+}
